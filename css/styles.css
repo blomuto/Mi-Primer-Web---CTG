@@ -1,0 +1,97 @@
+*{margin: 0%; padding: 0; box-sizing: border-box;}
+@font-face{
+    src: url("../fonts/GothamBold.otf");
+    font-family: "GothamBold";
+}
+@font-face{
+    src: url("../fonts/GothamMedium.otf");
+    font-family: "GothamMedium";
+}
+@font-face{
+    src: url("../fonts/GothamBook.otf");
+    font-family: "GothamBook";
+}
+.fuente-bold{
+    font-family: "GothamBold";
+}
+.fuente-medium{
+    font-family: "GothamMedium";
+}
+.fuente-book{
+    font-family: "GothamBook";
+}
+p{
+    font-size: 1em;
+}
+.miheader{
+    background-color: #2E928F;
+}
+.logo{
+    max-height: 90px;
+    max-width: 100%;
+}
+.menupc{
+    display: flex;
+    justify-content: center;
+}
+.fondo{
+    background-color: #9fe5ce;
+}
+.tit-serv{
+    color: #ffc300;
+}
+.textos-serv{
+    color: #4d4d4d;
+}
+.svg{
+    width: 50px;
+    padding-left: 5px;
+}
+.vermas{
+    background-color: #a4d28c;
+    color: white;
+}
+.vermas:hover{
+    background-color: #72bb4f;
+    color: white;
+}
+.sombras{
+    text-shadow: 1px 1px 5px #197471;
+}
+.banner-charlas{
+    background: url(../img/charla.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.prueba{
+    padding: 25px;
+}
+.tira-logos{
+    width: 150px;
+}
+.mifooter{
+    background-color: #197471;
+    color: #9fe5ce;
+}
+.superb{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.logo-horiz{
+    max-width: 200px;
+}
+.derechos{
+    color: #999999;
+}
+.construccion{
+    background: url(../img/enconstruccion.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+/* @media screen and (min-width: 0px) and (max-width:767px){
+    .superb{
+        padding: 1em;
+    }
+} */
