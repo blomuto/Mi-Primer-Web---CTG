@@ -60,22 +60,61 @@
     </nav>
 
     <!--Contacto-->
-<!--     <section class="container-fluid px-0 py-5 m-0 fondo">
+    <section class="container-fluid px-0 py-5 m-0">
         <div class="container">
-            <h2 class="text-center text-white fuente-bold pb-4">Contacto</h2>
-            <div class="row fuente-book">
-                <div class="col-lg-6 col-md-6 col-sm-12 p-3">
-                    <p>Hola</p>
-                </div>
-            </div>
-        </div>
-    </section> -->
+            <h2 class="text-center fuente-bold">Contacto</h2>
+            <div class="row fuente-book p-0 m-0 justify-content-center">
+                <div class="col-6">
+                    <form action="mailto: hola@ctgdietista.com" method="POST" id="form_contacto" subject="Consulta enviada desde la Web">
 
-    <section class="container-fluid">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="construccion">
+                        <div class="form-group p-0 m-0">
+                            <label for="nombre"></label>
+                            <input 
+                            type="text" 
+                            class="form-control" 
+                            id="nombre" 
+                            name="nombre"
+                            placeholder="Nombre" 
+                            required>
+                        </div>
 
+                        <div class="form-group p-0 m-0">
+                            <label for="mail"></label>
+                            <input 
+                            type="email" 
+                            class="form-control" 
+                            id="mail" 
+                            name="mail"
+                            placeholder="Mail" 
+                            pattern="^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$" 
+                            required>
+                        </div>
+
+                        <div class="form-group p-0 m-0">
+                            <label for="asunto"></label>
+                            <input 
+                            type="text" 
+                            class="form-control" 
+                            id="asunto"
+                            name="asunto" 
+                            placeholder="Asunto" 
+                            required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="consulta"></label>
+                            <textarea 
+                            class="form-control" 
+                            id="consulta" 
+                            name="consulta"
+                            placeholder="Escribe aquí tu consulta" 
+                            rows="3"
+                            ></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+
+                    </form>
                 </div>
             </div>
         </div>
