@@ -99,6 +99,58 @@ p{
 .masgrande{
     font-size: 3em;
 }
+
+.fondo-recetas{
+    background: url(../img/fondo-recetas.png);
+    background-position: center center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+.mireceta{
+    background-color: #99D7A8;
+}
+.solapa-receta{
+    background-color: #ffc300;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+.solapa-info{
+    background-color: #90b661;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+.svg-servicios{
+    max-height: 100px;
+    padding: 20px;
+}
+
+.c1{
+    background-color: #197471;
+}
+.c1:hover{
+    background-color: #4d4d4d;
+}
+.c2{
+    background-color: #90b661;
+}
+.c2:hover{
+    background-color: #a4b195;
+}
+.c3{
+    background-color: #99D7A8;
+}
+.c3:hover{
+    background-color: #b8ccbd;
+}
+.tamano-type{
+    font-size: 0.9em;
+}
+/*    width: 10vh;
+    height: 10vh;
+    
+
 /* @media screen and (min-width: 0px) and (max-width:767px){
     .superb{
         padding: 1em;
