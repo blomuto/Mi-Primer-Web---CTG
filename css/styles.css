@@ -20,6 +20,12 @@
 .fuente-book{
     font-family: "GothamBook";
 }
+.whatsapp{
+    right: 15px;
+    top: 85%;
+    z-index: 999;
+    position: fixed;
+}
 p{
     font-size: 1em;
 }
@@ -52,6 +58,14 @@ p{
     color: white;
 }
 .vermas:hover{
+    background-color: #72bb4f;
+    color: white;
+}
+.vertodas{
+    background-color: #197471;
+    color: white;
+}
+.vertodas:hover{
     background-color: #72bb4f;
     color: white;
 }
@@ -127,7 +141,7 @@ p{
 }
 
 .c1{
-    background-color: #197471;
+    background-color: #3da85a;
 }
 .c1:hover{
     background-color: #4d4d4d;
@@ -139,10 +153,16 @@ p{
     background-color: #a4b195;
 }
 .c3{
-    background-color: #99D7A8;
+    background-color: #6aaf7b;
 }
 .c3:hover{
     background-color: #b8ccbd;
+}
+.c4{
+    background-color: #00583b;
+}
+.c4:hover{
+    background-color: #535353;
 }
 .tamano-type{
     font-size: 0.9em;
